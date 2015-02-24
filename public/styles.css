@@ -1,0 +1,44 @@
+body {
+  background-color: #F6F6EF;
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 1em;
+}
+
+header {
+  background-color: #FF6600;
+  padding:8px 5px;
+}
+
+#news_logo {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.logo {
+  float:left;
+}
+
+.name, .nav {
+  vertical-align: top;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.login {
+  text-align: right;
+ }
+
+
+.domain{
+  color: #828282;
+  font-size: .8em;
+}
+
+.details{
+  font-size: .6em;
+  color: #828282;
+  padding-left: 10px;
+}

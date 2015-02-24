@@ -1,0 +1,8 @@
+<ol>
+  <% @news.each do |article| %>
+  <li>
+    <img src="/grayarrow.gif" alt="upvote arrow" / height="10" width="10"><span class="article"><%= article["article"]%></span> <span class="domain">(<%= article["domain"]%>)</span><br/>
+    <span class="details"><%= article["points"]%> points by <%= article["username"]%> 2 hours ago | <%= article["num_comments"]%> comments</span>
+  </li>
+    <% end %>
+</ol>

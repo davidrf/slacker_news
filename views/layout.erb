@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slacker News</title>
+
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img id ="news_logo" src="/logo.png" alt="Y Combinator logo" height="18" width="18">
+        <span class="name">
+            Hacker News
+        </span>
+        <span class="nav">
+          news | comments | show | ask | jobs |submit
+        </span>
+      </div>
+      <div class="login">login</div>
+    </header>
+    <%= yield %>
+  </body>
+</html>
